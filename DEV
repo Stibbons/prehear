@@ -30,3 +30,20 @@ Working with Eclipse
   - git@github.com:neskie/prehear.git
     (choose git+ssh as protocol, do not enter a password for the "git" login,
     and be sure github is aware of you ssh public key)
+    
+    
+Getting sources with Git
+1. Cloning the repository:
+    git clone git@github.com:Stibbons/prehear.git
+2. Add upstream repostory:
+    git remote add upstream git://github.com/neskie/prehear.git
+3. Merge change from upstream
+    git merge upstream/master
+4. Commit change to my repo
+    git push origin master
+    
+    
+Rappel:
+- Origin/master   : branche "master" sur mon repo distant
+- upstream/master : branche "master" sur le repo distant parent.
+
